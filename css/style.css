@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #5B9EED;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid gray;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.address {
+    color: gray;
+}
